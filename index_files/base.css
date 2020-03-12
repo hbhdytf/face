@@ -465,7 +465,7 @@ section .tit span {
 
 .competition li>p {
     display: inline-block;
-    max-width: 90%;
+    max-width: 70%;
     line-height: 1.75;
     vertical-align: top;
 }
