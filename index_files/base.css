@@ -465,7 +465,7 @@ section .tit span {
 
 .competition li>p {
     display: inline-block;
-    max-width: 70%;
+    max-width: 90%;
     line-height: 1.75;
     vertical-align: top;
 }
@@ -541,7 +541,12 @@ section .tit span {
 }
 
 .person div i.icon-mail {
-    background: url(../index_files/sun.jpg) no-repeat;
+    background: url(../index_files/sun.png) no-repeat;
+    background-size: 200px;
+}
+
+.person div i.icon-zhang {
+    background: url(../index_files/zhang.png) no-repeat;
     background-size: 200px;
 }
 
