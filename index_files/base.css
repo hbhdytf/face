@@ -148,6 +148,40 @@ a:hover {
 }
 
 .btn-blue,
+.btn-ent {
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    background: #6277ffab;
+    color: #f7f4f4;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    /* border: 1px solid #9feaff; */
+    transition: all 0.25s linear;
+    letter-spacing: 3px;
+    width: 230px;
+    margin: 2.2rem 5rem 0 0
+}
+
+.btn-ent {
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 1.7rem;
+    width: 160px;
+    margin: 1rem 15px 0
+}
+
+.btn-blue:hover,
+.btn-ent:hover {
+    background: #7e5ed6;
+    color: #fff;
+    border: 1px solid #7e5ed6;
+    letter-spacing: 5px;
+}
+
+.btn-blue,
 .btn-login {
     height: 4rem;
     line-height: 4rem;
@@ -236,6 +270,14 @@ a:hover {
 
 .banner img {
     width: 100%
+}
+
+.banner .btns {
+    position: absolute;
+    top: 420px;
+    margin: auto;
+    width: 90%;
+    text-align: center;
 }
 
 section {
