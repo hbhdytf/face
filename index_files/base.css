@@ -423,8 +423,9 @@ section .tit span {
     font-size: 16px;
     display: block;
     color: #6F7678;
-    margin-top: 6px;
+    margin-top: 12px;
     white-space: nowrap;
+    line-height: 1.8;
 }
 
 .index-progress-line {
