@@ -390,7 +390,7 @@ section .tit span {
 }
 
 .index-progress-number {
-    width: 120px;
+    width: 150px;
     height: 100px;
     /*transform: rotate(45deg);*/
     background: #FFF;
@@ -420,7 +420,7 @@ section .tit span {
 }
 
 .index-progress-time {
-    font-size: 14px;
+    font-size: 16px;
     display: block;
     color: #6F7678;
     margin-top: 6px;
