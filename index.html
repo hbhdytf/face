@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)./ -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./index_files/base.css">
+    <title>遮挡人脸识别挑战赛</title>
+</head>
+
+<body>
+    <!-- header -->
+
+    <div class="banner">
+        <div class="width90 header">
+            <!--   <div class="logo floatleft">
+    <h1>复杂环境地面目标监视识别技术挑战赛</h1>
+    <h2>CHALLENGE</h2>
+  </div> -->
+            <ul class="nav floatleft">
+                <li><a href="./#">首页</a></li>
+                <li class="fg">|</li>
+                <li><a href="./#section-into">简介</a></li>
+                <li class="fg">|</li>
+                <li><a href="./#section-subject">项目</a></li>
+                <li class="fg">|</li>
+                <li><a href="./#section-time">赛程</a></li>
+                <li class="fg">|</li>
+                <li><a href="./#section-competition">参赛方式</a></li>
+                <!--
+                <li class="fg">|</li>
+                <li><a href="./#section-ranking">排行榜</a></li>
+		-->
+                <li class="fg">|</li>
+                <li><a href="./#section-oganization">组织架构</a></li>
+                <li class="fg nav-downdata" style="display: none">|</li>
+                <li class="nav-downdata" style="display: none"><a href="./#section-subject" class="blue b">下载数据集</a></li>
+            </ul>
+
+            <!-- <a href="msg.html" class="msg" target="_blank">
+      消息<sup>1</sup>
+    </a> -->
+        </div>
+        <div class="clear"></div>
+
+    </div>
+    </div>
+    <!-- 简介 -->
+    <section id="section-intro">
+        <div class="width90 bg1">
+            <div class="tit">
+                <img src="./index_files/icon-01.png">
+                <h2>简介</h2>
+                <span>INTRODUCTION</span>
+            </div>
+            <p class="intro">根据习近平总书记关于“科学精准防疫、有序复工复产”的重要指示精神，针对当前各地复工复产中面临的安全、效率等问题，应利用科技信息化手段，全力保障经济大循环正常进行。在当前疫情防控形势下，遮挡状态下精准快速的人脸识别可用于白名单人员畅行、风险人员预警，适合社区出入、园区复工、学校复学等场景。</p>
+
+            <p class="intro"> 为全面提升国家疫情风险感知与防控能力，持续推动和引领人工智能技术在复工复产中的应用，国务院联防联控机制科研攻关组信息化专班针对当前紧迫需求，联合社会安全风险感知与防控大数据应用国家工程实验室、中国科学技术大学网络空间安全学院组织全国范围的遮挡人脸识别问题挑战赛，遴选优秀遮挡人脸识别技术产品，助力国家疫情防控和复工复产。
+            </p>
+            <p class="aligncenter"><a href="./intro.html" class="btn-login" target="_blank" style="display: inline-block;">更多介绍</a></p>
+        </div>
+    </section>
+    <!-- 科目 -->
+    <section id="section-subject" class="section-bg2">
+        <div class="width90">
+            <div class="tit">
+                <img src="./index_files/icon-02.png">
+                <h2>项目</h2>
+                <span>SUBJECT</span>
+            </div>
+            <div class="subject" style="padding: 1rem 0 1.5rem;">
+                <div class="s1">
+                    <div>
+                        <h2>服务器端遮挡人脸识别</h2>
+                        <div class="btns">
+                            <div onclick="showDetail('face')">项目详情</div>
+                            <div class="fg" style="display: none">|</div>
+                            <div class="downdate" style="display: none" onclick="download(1)">下载数据集</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="s2">
+                    <div>
+                        <h2>嵌入式终端遮挡人脸识别</h2>
+                        <div class="btns">
+                            <div onclick="showDetail('person')">项目详情</div>
+                            <div class="fg" style="display: none">|</div>
+                            <div class="downdate" style="display: none" onclick="download(2)">下载数据集</div>
+                        </div>
+                    </div>
+                </div>
+                <!--                 <div class="s4">
+                    <div>
+                        <h2>区域周界威胁行为检测</h2>
+                        <div class="btns">
+                            <div onclick="showDetail('abnormal')">科目详情</div>
+                            <div class="fg" style="display: none">|</div>
+                            <div class="downdate" style="display: none" onclick="download(3)">下载数据集</div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <p style="color:#fff">注意：参赛队伍需对底库集和查询集做人脸检测用于后续的人脸比对识别。</p>
+        </div>
+    </section>
+    <!-- 赛程 -->
+    <section id="section-time">
+        <div class="width90 section-bg3">
+            <div class="tit">
+                <img src="./index_files/icon-03.png">
+                <h2>赛程</h2>
+                <span>SCHEDULE</span>
+            </div>
+
+            <div class="index-progress floatleft">
+                <!--01-->
+                <a href="javascript:;" class="index-progress-item active">
+                    <p class="index-progress-number"><span>参赛报名</span></p>
+                    <!-- <h5 class="index-progress-h5">参赛报名</h5> -->
+                    <time class="index-progress-time">2020.03.17 - 2020.03.21</time>
+                </a>
+                <p class="index-progress-line active"></p>
+                <!--02-->
+                <a href="javascript:;" class="index-progress-item active">
+                    <p class="index-progress-number"><span>比赛阶段</span></p>
+                    <!-- <h5 class="index-progress-h5">比赛阶段</h5> -->
+                    <time class="index-progress-time">2020.03.24</time>
+                </a>
+                <p class="index-progress-line active"></p>
+                <!--03-->
+                <a href="javascript:;" class="index-progress-item active">
+                    <p class="index-progress-number"><span>结果公布</span></p>
+                    <!-- <h5 class="index-progress-h5">结果公布</h5> -->
+                    <time class="index-progress-time">2020.03.26</time>
+                </a>
+            </div>
+            <!--
+	    <a  class="btn-blue floatright" >立即参赛</a>
+		-->
+            <div class="clear"></div>
+        </div>
+    </section>
+    <!-- 参赛方式 -->
+    <section id="section-competition" class="section-bg4">
+        <div class="width90">
+            <div class="tit">
+                <img src="./index_files/icon-04.png">
+                <h2>参赛方式</h2>
+                <span>COMPETITION</span>
+            </div>
+            <ul class="competition">
+                <li>
+                    <span>
+          <i></i>
+          报名时间：
+        </span>
+                    <p>2020.03.17 - 2020.03.21</p>
+                </li>
+                <li>
+                    <span>
+          <i></i>
+          参赛对象：
+        </span>
+                    <p>竞赛面向全社会开放，参赛对象可以是所有在中国境内的企业单位、科研机构、高等院校，主办方相关人员禁止参赛。</p>
+                </li>
+                <li>
+
+                    <span>
+          <i></i>
+          报名要求：
+        </span>
+                    <p>（1）参赛团队应有唯一命名。名称均不得超过6个（含）汉字或12个（含）英文字符，报名后不得更改。<br>（2）参赛团队报名所填报的资料、信息应该准确、真实、有效、合法、完整，如若发现有虚假和隐瞒，将被取消参赛资格。</p>
+                </li>
+                <li>
+                    <span>
+          <i></i>
+          参赛方式：
+        </span>
+                    <p>在官网下载报名表，填好后，用注册邮箱发送到lli@csdslab.net进行审核。</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 排行榜 
+    <section id="section-ranking" class="">
+        <div class="width90">
+            <div class="tit">
+                <img src="./index_files/icon-05.png">
+                <h2>排行榜</h2>
+                <span>RANKING</span>
+            </div>
+            <div id="ranking">
+                <div class="rankingbox">
+                    <h2>复杂环境无感人脸识别<span class="floatright" style="font-size: 16px;color:#333;margin-top: 2px;">决赛入围名单</span></h2>
+                    <div class="rankingtitle">
+                        <span class="ranking-width-1">排名</span>
+                        <span class="ranking-width-2">参赛队</span>
+                        <span class="ranking-width-3">最优得分</span>
+                        <span class="ranking-width-4">最新得分</span>
+                    </div>
+                    <ul id="ranking-face" style="display: block;">
+                        <li> <span class="ranking-width-1">1</span> <span class="ranking-width-2">SIAT-FACE</span> <span class="ranking-width-3">90.8644</span> <span class="ranking-width-4">90.8644</span></li>
+                        <li> <span class="ranking-width-1">2</span> <span class="ranking-width-2">Cloudwalk</span> <span class="ranking-width-3">89.3399</span> <span class="ranking-width-4">89.3399</span></li>
+                        <li> <span class="ranking-width-1">3</span> <span class="ranking-width-2">lzzzz</span> <span class="ranking-width-3">85.1393</span> <span class="ranking-width-4">85.1393</span></li>
+                        <li> <span class="ranking-width-1">4</span> <span class="ranking-width-2">人工智能与无人机智能系统实验室</span> <span class="ranking-width-3">77.9227</span> <span class="ranking-width-4">77.9227</span></li>
+                        <li> <span class="ranking-width-1">5</span> <span class="ranking-width-2">三体智能队</span> <span class="ranking-width-3">73.725</span> <span class="ranking-width-4">73.725</span></li>
+                        <li> <span class="ranking-width-1">6</span> <span class="ranking-width-2">第四范式西柚队</span> <span class="ranking-width-3">58.9584</span> <span class="ranking-width-4">58.9584</span></li>
+                    </ul>
+                    <div class="ranking-nodata" style="display: none;">暂无数据</div>
+                </div>
+                <div class="rankingbox">
+                    <h2>远距离行人身份识别<span class="floatright" style="font-size: 16px;color:#333;margin-top: 2px;">决赛入围名单</span></h2>
+                    <div class="rankingtitle">
+                        <span class="ranking-width-1">排名</span>
+                        <span class="ranking-width-2">参赛队</span>
+                        <span class="ranking-width-3">最优得分</span>
+                        <span class="ranking-width-4">最新得分</span>
+                    </div>
+                    <ul id="ranking-person" style="display: block;">
+                        <li> <span class="ranking-width-1">1</span> <span class="ranking-width-2">lzzzz</span> <span class="ranking-width-3">65.8105</span> <span class="ranking-width-4">65.8105</span></li>
+                        <li> <span class="ranking-width-1">2</span> <span class="ranking-width-2">QI-AIML</span> <span class="ranking-width-3">51.8885</span> <span class="ranking-width-4">51.8885</span></li>
+                        <li> <span class="ranking-width-1">3</span> <span class="ranking-width-2">Smart-Vision</span> <span class="ranking-width-3">51.1067</span> <span class="ranking-width-4">51.1067</span></li>
+                        <li> <span class="ranking-width-1">4</span> <span class="ranking-width-2">SnowCloud</span> <span class="ranking-width-3">42.1711</span> <span class="ranking-width-4">42.1711</span></li>
+                        <li> <span class="ranking-width-1">5</span> <span class="ranking-width-2">视觉小队</span> <span class="ranking-width-3">36.1768</span> <span class="ranking-width-4">36.1768</span></li>
+                        <li> <span class="ranking-width-1">6</span> <span class="ranking-width-2">双园路11号</span> <span class="ranking-width-3">27.8946</span> <span class="ranking-width-4">27.8946</span></li>
+                    </ul>
+                    <div class="ranking-nodata" style="display: none;">暂无数据</div>
+                </div>
+                <div class="rankingbox">
+                    <h2>区域周界威胁行为检测<span class="floatright" style="font-size: 16px;color:#333;margin-top: 2px;">决赛入围名单</span></h2>
+                    <div class="rankingtitle">
+                        <span class="ranking-width-1">排名</span>
+                        <span class="ranking-width-2">参赛队</span>
+                        <span class="ranking-width-3">最优得分</span>
+                        <span class="ranking-width-4">最新得分</span>
+                    </div>
+                    <ul id="ranking-abnormal" style="display: block;">
+                        <li> <span class="ranking-width-1">1</span> <span class="ranking-width-2">Darkvan</span> <span class="ranking-width-3">34.4984</span> <span class="ranking-width-4">34.4984</span></li>
+                        <li> <span class="ranking-width-1">2</span> <span class="ranking-width-2">baseline</span> <span class="ranking-width-3">29.9972</span> <span class="ranking-width-4">29.634</span></li>
+                        <li> <span class="ranking-width-1">3</span> <span class="ranking-width-2">SnowCloud</span> <span class="ranking-width-3">27.7209</span> <span class="ranking-width-4">27.7209</span></li>
+                        <li> <span class="ranking-width-1">4</span> <span class="ranking-width-2">CFM-Anomaly Detection</span> <span class="ranking-width-3">23.7926</span> <span class="ranking-width-4">23.7926</span></li>
+                        <li> <span class="ranking-width-1">5</span> <span class="ranking-width-2">Xjtu_Developers</span> <span class="ranking-width-3">21.7285</span> <span class="ranking-width-4">21.3219</span></li>
+                        <li> <span class="ranking-width-1">6</span> <span class="ranking-width-2">检测小队</span> <span class="ranking-width-3">16.6638</span> <span class="ranking-width-4">16.3885</span></li>
+                    </ul>
+                    <div class="ranking-nodata" style="display: none;">暂无数据</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+    <!-- 组织 -->
+    <section id="section-oganization">
+        <div class="width90">
+            <div class="tit">
+                <img src="./index_files/icon-05.png">
+                <h2>组织</h2>
+                <span>ORGANIZATION</span>
+            </div>
+            <h2 class="oganization-title"><span>主办单位</span></h2>
+            <p class="aligncenter" style="line-height: 2">国务院联防联控机制科研攻关组信息化专班</p>
+            <h2 class="oganization-title" style="margin-top: 3rem;"><span>承办单位</span></h2>
+            <p class="aligncenter" style="line-height: 2">社会安全风险感知与防控大数据应用国家工程实验室</p>
+            <p class="aligncenter" style="line-height: 2">中国科学技术大学网络空间安全学院</p>
+        </div>
+    </section>
+    <!-- 联系 -->
+    <section id="section-contact" class="section-bg4" style="height: 500px;">
+        <div class="width90">
+            <div class="tit">
+                <img src="./index_files/icon-06.png">
+                <h2>评审专家</h2>
+                <span>Experts</span>
+            </div>
+            <div class="person">
+                <div>
+                    <i class="icon-tel"></i>
+                    <p>罗杰波</p>
+                </div>
+                <div>
+                    <i class="icon-mail"></i>
+                    <p>孙启彬</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-contact" style="
+    padding-bottom: 20px;
+    padding-top: 20px;
+">
+        <div class="width90">
+            <div class="contact">
+                <div>
+                    <i class="icon-tel"></i>
+                    <p>李老师 lli@csdslab.net</p>
+                </div>
+                <div>
+                    <i class="icon-mail"></i>
+                    <p>北京市石景山区双园路11号</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 返回顶部 -->
+    <div id="toTop" class="totop" title="返回顶部"></div>
+    <!-- login -->
+    <div id="popBox">
+        <div id="loginBox" style="display: none">
+            <h1>
+                登录
+                <i data-id="closePopBox" class="icon-close floatright">×</i>
+            </h1>
+            <div class="form">
+                <label>
+        <span>手机</span>
+        <input type="text" name="login-phone" id="login-phone" placeholder="请输入您的手机号" maxlength="11">
+      </label>
+                <label>
+        <span>密码</span>
+        <input type="password" name="login-psw" id="login-psw" placeholder="请输入登录密码" autocomplete="new-password">
+      </label>
+                <p class="alignright">
+                    <span id="goResetPsw" class="blue">忘记密码</span>
+                    <span style="padding: 0 0.5rem;color:#3478d1">|</span>
+                    <span id="goReg" class="blue">去注册</span>
+                </p>
+                <div class="btn-login" id="loginBtn">登 录</div>
+            </div>
+        </div>
+        <div id="regBox" style="display: none">
+            <h1>
+                <span id="regTitle">注册</span>
+                <i data-id="closePopBox" class="icon-close floatright">×</i>
+            </h1>
+            <div class="form">
+                <label>
+        <span>手机</span>
+        <input type="text" name="reg-phone" id="reg-phone" placeholder="请输入您的手机号" maxlength="11">
+      </label>
+                <label id="reg-mail-box">
+        <span>邮箱</span>
+        <input type="text" name="reg-mail" id="reg-mail" placeholder="请输入您的邮箱地址">
+      </label>
+                <label id="reg-company-box">
+        <span>单位</span>
+        <input type="text" name="reg-company" id="reg-company" placeholder="请输入您的单位名称">
+      </label>
+                <label>
+        <span>密码</span>
+        <input type="password" name="reg-psw" id="reg-psw" placeholder="请输入登录密码，最少8位" autocomplete="new-password">
+      </label>
+                <label>
+        <span style="letter-spacing: 0">确认密码</span>
+        <input type="password" name="pswc" id="pswc" placeholder="请输入登录密码" autocomplete="new-password">
+      </label>
+                <label>
+        <span style="letter-spacing: 0.5rem">验证码</span>
+        <input type="text" name="vcode" id="vCode" placeholder="验证码" autocomplete="new-password" style="text-align: center">
+        <button id="getVcode" class="send-code" disabled="disabled">发送验证码</button>
+      </label>
+                <p class="alignright">
+                    <span id="agreement" class="floatleft">
+          <input type="checkbox" id="reg-agreement"> 已阅读并同意<a href="./agreement.html" target="_blank" style="color:#3478d1">《参赛协议》</a>
+        </span>
+                    <span id="goLogin" class="blue">去登录</span>
+                </p>
+                <div class="btn-login" id="regBtn">注 册</div>
+                <div class="btn-login" id="resetPswBtn" style="display: none;">重置密码</div>
+            </div>
+        </div>
+        <div id="companyBox" style="display: none">
+            <h1>
+                <span id="regTitle">填写单位</span>
+            </h1>
+            <div class="form">
+                <label>
+        <span>单位</span>
+        <input type="text" name="company" id="companyInput" placeholder="请输入您的单位">
+      </label>
+            </div>
+            <div class="btn-login" id="companyBtn">提 交</div>
+        </div>
+    </div>
+    <!-- 科目详情 -->
+    <div id="subjectBox">
+        <div id="subjectFace" class="subject-detail">
+            <h2>评审细则-服务器端遮挡人脸识别<i data-id="closeSubjectBox" class="icon-close floatright">×</i></h2>
+            <div class="subject-detail-content">
+                <iframe src="./index_files/iframe-face.html"></iframe>
+            </div>
+        </div>
+
+        <div id="subjectPerson" class="subject-detail">
+            <h2>评审细则-嵌入式终端遮挡人脸识别<i data-id="closeSubjectBox" class="icon-close floatright">×</i></h2>
+            <div class="subject-detail-content">
+                <iframe src="./index_files/iframe-person.html"></iframe>
+            </div>
+        </div>
+        <div id="subjectAbnormal" class="subject-detail">
+            <h2>评审细则-威胁行为检测<i data-id="closeSubjectBox" class="icon-close floatright">×</i></h2>
+            <div class="subject-detail-content">
+                <iframe src="./index_files/iframe-abnormal.html"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- 报名表 -->
+    <div id="signUpBox">
+        <div id="signUp" class="signUp-detail">
+            <h2>下载报名表<i data-id="closeSignUpBox" class="icon-close floatright">×</i></h2>
+            <div class="signUp-detail-content">
+                <div class="form" style="padding: 1rem 2rem">
+                    <p>请下载报名表填写相关信息，填好后，用注册邮箱发送到 rgzntzs@163.com，我们会在2个工作日内回复。</p>
+                    <a class="btn-login" id="signUpBtn" style="display: block;" href="./entryform.zip" target="_blank">下载报名表</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="loading">
+        文件上传中，请稍候……
+    </div>
+    <!-- 下载地址 -->
+    <div id="panBox">
+        <div id="pan" class="panBox-detail">
+            <h2>下载地址<i data-id="closePanBox" class="icon-close floatright">×</i></h2>
+            <p style="text-indent: 2rem;line-height: 2;font-size: 0.9rem;padding-top: 0.75rem">1、请各参赛单位于1月2日中午12点前将数据集中“遮挡人脸识别挑战赛数据集使用协议”签字盖章后扫描回传至邮箱：unit666@163.com（如参赛队伍同时参与多个项目，只需回传一次）；</p>
+            <p style="text-indent: 2rem;line-height: 2;font-size: 0.9rem">2、数据集发布于百度网盘，如果下载速度过慢，请各位自行开通会员加速下载。</p>
+            <p style="text-indent: 2rem;line-height: 2;font-size: 0.9rem">3、视频播放推荐使用“完美解码”软件。</p>
+            <div class="panBox-detail-content" style="padding: 1rem 2rem;">
+                <p id="pan-path">下载地址：<a href="./" target="_blank" style="color: #3478d1">去百度网盘下载</a></p>
+                <p id="pan-psw" style="padding: 1rem 0">提取密码：<span style="color: #3478d1"></span></p>
+                <p id="pan-unzippsw">解压密码：<span style="color: #3478d1"></span></p>
+            </div>
+        </div>
+    </div>
+    <!-- 提示窗口 -->
+    <div id="tipBox">
+        <div id="tip" class="tip-detail" style="width: 500px">
+            <h2>温馨提示</h2>
+            <div id="tipmsg" style="padding:1rem;line-height: 2;text-indent: justify">
+                <p style="text-indent: 2rem">1、科目一（复杂环境无感人脸识别）、科目二（远距离行人身份识别）、科目三（区域周界威胁行为检测）的初赛数据集将于2020年1月15日上午10点发布，各参赛队伍请及时下载；</p>
+                <p style="text-indent: 2rem">2、各科目初赛提交结果接口将于2020年1月17日上午10点关闭，各参赛队伍请及时提交初赛测试结果；</p>
+                <p style="text-indent: 2rem">3、各参赛队伍提交结果时请尽量使用rar压缩包；</p>
+                <p style="text-indent: 2rem">4、各参赛队伍提交结果时请补齐所需的txt文档，避免因出现如001.txt后接003.txt而缺少002.txt的情况，导致自动评分系统无法运算出结果。</p>
+            </div>
+            <div class="btn-login" id="tips-ok">知道了</div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./index_files/jquery.min.js"></script>
+    <script type="text/javascript" src="./index_files/index.js"></script>
+
+</body>
+
+</html>

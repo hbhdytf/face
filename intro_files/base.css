@@ -1,0 +1,890 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+input,
+button,
+textarea,
+select {
+    font-family: "Microsoft YaHei";
+    font-size: 100%
+}
+
+body {
+    /*background: #0A071E*/
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+    outline: none;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    /*text-decoration: underline*/
+    color: #3385ff;
+}
+
+.cursor {
+    cursor: pointer
+}
+
+.none {
+    display: none
+}
+
+.show {
+    display: inline-block;
+}
+
+.block {
+    display: block
+}
+
+.inblock {
+    display: inline-block
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+.pos-fixed {
+    position: fixed
+}
+
+.pos-static {
+    position: static;
+}
+
+.alignleft {
+    text-align: left
+}
+
+.aligncenter {
+    text-align: center
+}
+
+.alignright {
+    text-align: right
+}
+
+.floatright {
+    float: right
+}
+
+.floatleft {
+    float: left
+}
+
+.clear {
+    clear: both
+}
+
+.icon {
+    display: inline-block;
+}
+
+.blue {
+    color: #3478d1;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.login {
+    letter-spacing: 2px;
+    margin-top: 6px;
+}
+
+.btn-blue,
+.btn-login {
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    background: none;
+    color: #3478d1;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    border: 1px solid #3478d1;
+    transition: all 0.25s linear;
+    letter-spacing: 3px;
+    width: 230px;
+    margin: 2.2rem 5rem 0 0
+}
+
+.btn-login {
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1.25rem;
+    width: 260px;
+    margin: 2rem auto 0
+}
+
+.btn-blue:hover,
+.btn-login:hover {
+    background: #3478d1;
+    color: #fff;
+    border: 1px solid #3478d1;
+    letter-spacing: 5px;
+}
+
+.header {
+    padding: 1.5rem 0;
+}
+
+.width90 {
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 80px;
+    margin-bottom: 1.2rem
+}
+
+.logo h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #3478d1;
+    letter-spacing: 1px;
+    padding-bottom: 6px
+}
+
+.logo h2 {
+    font-size: 14px;
+    color: #3478d1;
+}
+
+.nav li {
+    display: inline-block;
+    margin-bottom: 0.8rem;
+    letter-spacing: 2px
+}
+
+.nav li a {
+    color: #fff;
+}
+
+.nav li a:hover {
+    color: #3478d1;
+}
+
+.nav li.fg {
+    padding: 0 1rem;
+    color: #c9c9c9;
+}
+
+.banner {
+    height: 600px;
+    overflow: hidden;
+    background: #171f78 url(../images/banner1.jpg) no-repeat center top;
+    background-size: auto 100%
+}
+
+.banner img {
+    width: 100%
+}
+
+section {
+    padding-bottom: 40px;
+}
+
+section .tit {
+    padding: 60px 0 40PX;
+    position: relative;
+    padding-left: 118px;
+    overflow: hidden;
+}
+
+section .tit img {
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+
+section .tit h2 {
+    font-size: 36px;
+    color: #3478d1;
+    margin-top: 24px;
+}
+
+section .tit span {
+    color: #3478d1;
+    font-size: 18px;
+    opacity: .6
+}
+
+.intro {
+    line-height: 2;
+    text-indent: 2em
+}
+
+.bg1 {
+    background: url(../images/in_01.jpg) no-repeat center right;
+}
+
+.section-bg2 {
+    background: radial-gradient(circle farthest-corner at 0 0, #181956 0%, #3292dd 80%);
+}
+
+.subject {
+    overflow: hidden;
+    display: flex;
+}
+
+.subject>div {
+    flex: 1;
+    height: 300px;
+}
+
+.subject>div>div {
+    height: 300px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+}
+
+.subject>div>div>div {}
+
+.s1 {
+    background: url(../images/pic-cover-2.jpg) center;
+    background-size: cover
+}
+
+.s2 {
+    background: url(../images/photo-1499351094445-76ef13077fb9.jpg) center;
+    background-size: cover;
+    margin: 0 1.5rem;
+}
+
+.s3 {
+    background: url(../images/photo-1549317661-bd32c8ce0db2.jpg) center;
+    background-size: cover
+}
+
+.s4 {
+    background: url(../images/Technology_action1.jpg) center;
+    background-size: cover
+}
+
+.subject>div>div h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 5px;
+    padding: 90px 0 1.5rem
+}
+
+.subject>div>div .btns {
+    padding: 1rem;
+    display: flex;
+    height: 36px;
+    justify-content: center;
+}
+
+.subject>div>div .btns div {
+    width: 110px;
+    height: 36px;
+    line-height: 34px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.2s linear
+}
+
+.subject>div>div .btns div a {
+    color: #fff;
+}
+
+.subject>div>div .btns div:hover {
+    border: 1px solid #3478d1;
+    background: #3478d1;
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+.subject>div>div .btns div.fg,
+.subject>div>div .btns div.fg:hover {
+    width: 1px;
+    /*background: #fff;*/
+    margin: 0 1rem;
+    border: 0;
+    cursor: default;
+    background: none
+}
+
+.section-bg3 {
+    background: url(../images/photo-1485882318661-43c518feb279.png) no-repeat right;
+    background-size: 50%
+}
+
+.index-progress {
+    padding: 10px 0px 0px 0;
+    overflow: hidden;
+}
+
+.index-progress-item {
+    float: left;
+    width: 240px;
+    text-align: center;
+    display: block;
+}
+
+.index-progress-item.active .index-progress-number {
+    background-color: #3478d1;
+}
+
+.index-progress-number {
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+    background: #FFF;
+    border: 1px solid #3478d1;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.index-progress-item.active span {
+    color: #fff;
+}
+
+.index-progress-number span {
+    display: block;
+    line-height: 100px;
+    transform: rotate(-45deg);
+    text-align: center;
+    color: #3F4344;
+    font-size: 2rem
+}
+
+.index-progress-h5 {
+    font-size: 18px;
+    color: #3F4344;
+    margin-top: 47px;
+}
+
+.index-progress-time {
+    font-size: 14px;
+    display: block;
+    color: #6F7678;
+    margin-top: 6px;
+    white-space: nowrap;
+}
+
+.index-progress-line {
+    float: left;
+    margin: 52px 13px 0;
+    width: 40px;
+    height: 13px;
+    background: url(../images/timefg.png) no-repeat;
+    background-size: 100%
+}
+
+.section-bg4 {
+    background: #f7f7f7;
+}
+
+.competition li {
+    padding: 1rem;
+}
+
+.competition li>span {
+    display: inline-block;
+    width: 8rem;
+    padding-left: 2rem;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 2px;
+}
+
+.competition li>span i {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #3478d1;
+    border-radius: 5px;
+    left: 1rem;
+    top: 8px
+}
+
+.competition li>p {
+    display: inline-block;
+    max-width: 70%;
+    line-height: 1.75;
+    vertical-align: top;
+}
+
+.oganization-title {
+    display: block;
+    padding: 0 0 1rem;
+    text-align: center;
+}
+
+.oganization-title span {
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #3478d1;
+    letter-spacing: 5px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #666
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact div {
+    flex: 1;
+    margin: 1rem;
+    text-align: center;
+    height: 120px;
+}
+
+.contact div i {
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin: 0 auto 2rem;
+}
+
+.contact div i.icon-tel {
+    background: url(../images/phone-fill.png) no-repeat;
+    background-size: 36px;
+}
+
+.contact div i.icon-mail {
+    background: url(../images/mail-fill.png) no-repeat;
+    background-size: 36px;
+}
+
+i.icon-user {
+    background: url(../images/icon-user.png) no-repeat;
+    background-size: 26px;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    margin-right: 0.5rem;
+    vertical-align: top;
+    position: relative;
+    top: -2px;
+}
+
+i.icon-close {
+    font-size: 1.5rem;
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    position: relative;
+    top: -2px;
+    cursor: pointer;
+    color: #333;
+    transition: all 0.2s linear
+}
+
+i.icon-close:hover {
+    color: #3478d1;
+}
+
+.totop {
+    width: 40px;
+    height: 40px;
+    background: url(../images/totop.png) no-repeat;
+    background-size: 100%;
+    opacity: 0.3;
+    transition: all 0.2s linear;
+    position: fixed;
+    right: 3rem;
+    bottom: 10%;
+    cursor: pointer;
+}
+
+.totop:hover {
+    opacity: 1
+}
+
+#popBox,
+#subjectBox,
+#signUpBox,
+#panBox,
+#tipBox {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+#loginBox,
+#regBox,
+#companyBox {
+    margin: 0 auto;
+    width: 502px;
+    height: auto;
+    background: #FFFFFF;
+    padding: 20px 30px 30px 30px;
+    /*display: none;*/
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.4);
+}
+
+#loginBox h1,
+#regBox h1,
+#companyBox h1,
+.subject-detail h2,
+.signUp-detail h2,
+.panBox-detail h2,
+.tip-detail h2 {
+    display: block;
+    color: #3478d1;
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #3478d1;
+    letter-spacing: 3px;
+    padding: 0 0 0.8rem
+}
+
+.form {
+    padding: 1rem 3.5rem;
+}
+
+.form>label {
+    display: flex;
+    height: 46px;
+    margin: 2rem 0
+}
+
+.form>label span {
+    width: 6rem;
+    line-height: 46px;
+    letter-spacing: 2rem
+}
+
+.form>label input {
+    flex: 1;
+    padding: 0 10px;
+    outline: none;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+}
+
+.form>label input#vCode {
+    width: 5rem;
+    flex: inherit;
+}
+
+.form>label .send-code {
+    flex: 1;
+    background: #3478d1;
+    color: #fff;
+    margin-left: 1rem;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form>label .send-code[disabled] {
+    background: #eee;
+    color: #999;
+    cursor: not-allowed;
+}
+
+#goReg,
+#goLogin,
+#goResetPsw {
+    cursor: pointer;
+}
+
+.subject-detail,
+.panBox-detail,
+.signUp-detail,
+.tip-detail {
+    margin: 0 auto;
+    width: 1100px;
+    height: auto;
+    background: #FFFFFF;
+    padding: 20px 30px 30px 30px;
+    /*display: none;*/
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.4);
+    display: none;
+}
+
+.subject-detail iframe {
+    height: 700px;
+    border: 0;
+    width: 100%
+}
+
+.signUp-detail,
+.panBox-detail {
+    width: 500px;
+}
+
+.signUp-detail .form label {
+    height: 36px;
+}
+
+.signUp-detail .form label span {
+    line-height: 36px;
+}
+
+.subject-detail-content,
+.signUp-detail-content,
+.panBox-detail-content {
+    max-height: 700px;
+    padding: 1rem 0;
+}
+
+.msg,
+.userbox,
+.userinfobox {
+    float: left;
+    color: #fff;
+}
+
+.msg {
+    float: none;
+    position: relative;
+}
+
+.msg sup {}
+
+.msg span {
+    padding: 0 0.25rem;
+}
+
+.msg sup {
+    display: inline-block;
+    background: red;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    top: -3px;
+    margin-left: -4px;
+    display: none;
+}
+
+.msgbanner {
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    background: radial-gradient(circle farthest-corner at 0 0, #181956 0%, #3292dd 80%);
+    font-size: 4rem;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1rem;
+}
+
+#msgList {
+    width: 1360px;
+    margin: 2rem auto;
+    padding: 1rem;
+    min-height: calc(100vh - 531px)
+}
+
+#msgList li {
+    height: 3rem;
+    line-height: 3rem;
+    color: #3478d1;
+    position: relative;
+    padding-left: 1.5rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+#msgList li .msgname {
+    width: 60%
+}
+
+#msgList li .msgtime,
+#msgList li .msgbtn {
+    width: 20%;
+    text-align: right
+}
+
+#msgList li:after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #3478d1;
+    left: 0.5rem;
+    top: 1.35em
+}
+
+.msg-content {
+    padding: 1rem;
+    line-height: 2rem;
+    min-height: 20rem;
+}
+
+.submit label {
+    display: block;
+}
+
+.submit input {
+    opacity: 0;
+    width: 1px;
+    height: 0
+}
+
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: none;
+    text-align: center;
+    padding-top: 20%;
+    font-size: 1.25rem;
+    letter-spacing: 3px;
+}
+
+#ranking {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rankingbox {
+    width: 31%;
+}
+
+.rankingbox h2 {
+    display: block;
+    color: #3478d1;
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #3478d1;
+    letter-spacing: 3px;
+    padding: 0 0 0.8rem;
+    /*text-align: center;*/
+}
+
+.rankingtitle {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc
+}
+
+.ranking-width-1,
+.ranking-width-2,
+.ranking-width-3,
+.ranking-width-4,
+.ranking-width-5 {
+    padding-left: 1rem;
+    text-align: left;
+}
+
+.ranking-width-1 {
+    width: 3rem;
+}
+
+.ranking-width-2 {
+    width: 9rem;
+    padding-right: 1rem
+}
+
+.ranking-width-3 {
+    width: 6rem
+}
+
+.ranking-width-4,
+.ranking-width-5 {
+    flex: 1;
+}
+
+.rankingbox ul,
+.ranking-nodata {
+    height: 300px;
+    overflow-y: auto;
+    display: none;
+}
+
+.ranking-nodata {
+    text-align: center;
+    color: #aaa;
+    line-height: 300px;
+    display: block;
+}
+
+.rankingbox ul li {
+    display: flex;
+    padding: 0.5rem 0
+}
+
+.rankingbox ul li:nth-child(odd) {
+    background: #f7f7f7
+}
