@@ -123,7 +123,7 @@ a:hover {
 }
 
 .floatleft {
-    float: left
+    /* float: left */
 }
 
 .clear {
@@ -220,7 +220,8 @@ a:hover {
 }
 
 .width90 {
-    width: 1360px;
+    /* width: 1360px; */
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -422,7 +423,8 @@ section .tit span {
 
 .index-progress-item {
     float: left;
-    width: 400px;
+    /* width: 400px; */
+    width: 29%;
     text-align: center;
     display: block;
 }
