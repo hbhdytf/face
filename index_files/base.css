@@ -149,10 +149,9 @@ a:hover {
 
 .btn-blue,
 .btn-ent {
-    height: 4rem;
-    line-height: 4rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
     text-align: center;
-    background: #6277ffab;
     color: #f7f4f4;
     cursor: pointer;
     padding: 0;
@@ -165,20 +164,45 @@ a:hover {
     margin: 2.2rem 5rem 0 0
 }
 
+.btn-ent1 {
+    background: url(../images/btn1-1.png) no-repeat center top;
+    background-size: 100% 100%;
+}
+
+.btn-ent2 {
+    background: url(../images/btn2-1.png) no-repeat center top;
+    background-size: 100% 100%;
+}
+
+.btn-ent3 {
+    background: url(../images/btn3-1.png) no-repeat center top;
+    background-size: 100% 100%;
+}
+
 .btn-ent {
-    height: 4rem;
-    line-height: 4rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
     font-size: 1.2rem;
     width: 160px;
     margin: 1rem 15px 0
 }
 
 .btn-blue:hover,
-.btn-ent:hover {
-    background: #7e5ed6;
-    color: #fff;
-    border: 1px solid #7e5ed6;
-    letter-spacing: 5px;
+.btn-ent:hover {}
+
+.btn-ent1:hover {
+    background: url(../images/btn1-2.png) no-repeat center top;
+    background-size: 100% 100%;
+}
+
+.btn-ent2:hover {
+    background: url(../images/btn2-2.png) no-repeat center top;
+    background-size: 100% 100%;
+}
+
+.btn-ent3:hover {
+    background: url(../images/btn3-2.png) no-repeat center top;
+    background-size: 100% 100%;
 }
 
 .btn-blue,
@@ -424,21 +448,21 @@ section .tit span {
 .index-progress-item {
     float: left;
     /* width: 400px; */
-    width: 29%;
+    width: 25%;
     text-align: center;
     display: block;
 }
 
 .index-progress-item.active .index-progress-number {
-    background-color: #7e5ed6;
+    /* background-color: #7e5ed6; */
+    background: url(../images/bac.png) no-repeat center;
+    background-size: 100% 100%;
 }
 
 .index-progress-number {
-    width: 150px;
-    height: 100px;
-    /*transform: rotate(45deg);*/
+    width: 240px;
+    height: 80px;
     background: #FFF;
-    border: 1px solid #7e5ed6;
     border-radius: 5px;
     margin-top: 10px;
     display: inline-block;
@@ -450,7 +474,7 @@ section .tit span {
 
 .index-progress-number span {
     display: block;
-    line-height: 100px;
+    line-height: 80px;
     /* transform: rotate(-45deg); */
     text-align: center;
     color: #3F4344;
