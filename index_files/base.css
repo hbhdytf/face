@@ -299,7 +299,7 @@ a:hover {
 
 .banner .btns {
     position: absolute;
-    top: 420px;
+    top: 450px;
     margin: auto;
     width: 90%;
     text-align: center;
@@ -344,7 +344,7 @@ section .tit span {
 }
 
 .section-bg2 {
-    background: radial-gradient(circle farthest-corner at 0 0, #081250 0%, #644ca7 80%);
+    background: radial-gradient(circle farthest-corner at 0 0, #222368 0%, #836ee0 80%);
 }
 
 .subject {
@@ -461,7 +461,7 @@ section .tit span {
 
 .index-progress-number {
     width: 240px;
-    height: 80px;
+    height: 60px;
     background: #FFF;
     border-radius: 5px;
     margin-top: 10px;
@@ -474,7 +474,7 @@ section .tit span {
 
 .index-progress-number span {
     display: block;
-    line-height: 80px;
+    line-height: 60px;
     /* transform: rotate(-45deg); */
     text-align: center;
     color: #3F4344;
@@ -498,7 +498,7 @@ section .tit span {
 
 .index-progress-line {
     float: left;
-    margin: 52px 13px 0;
+    margin: 32px 13px 0;
     width: 40px;
     height: 13px;
     background: url(../images/timefg.png) no-repeat;
