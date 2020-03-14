@@ -305,6 +305,11 @@ a:hover {
     text-align: center;
 }
 
+.section-bg6 {
+    background: url(../images/person.png) no-repeat center;
+    background-size: 80%
+}
+
 section {
     padding-bottom: 40px;
 }

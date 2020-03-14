@@ -442,6 +442,11 @@ section .tit span {
     background-size: 50%
 }
 
+.section-bg6 {
+    background: url(../images/person.png) no-repeat center;
+    background-size: 80%
+}
+
 .index-progress {
     padding: 10px 0px 0px 0;
     overflow: hidden;
