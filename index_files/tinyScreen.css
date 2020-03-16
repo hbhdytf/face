@@ -626,6 +626,11 @@ section .tit span {
     background-size: 200px;
 }
 
+.person div i.icon-zeng {
+    background: url(../index_files/zeng.png) no-repeat;
+    background-size: 200px;
+}
+
 i.icon-user {
     background: url(../images/icon-user.png) no-repeat;
     background-size: 26px;
