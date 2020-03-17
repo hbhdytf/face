@@ -510,11 +510,29 @@ section .tit span {
 
 .index-progress-line {
     float: left;
-    margin: 32px 13px 0;
-    width: 40px;
-    height: 13px;
+    margin: 20px 13px 0;
+    width: 80px;
+    height: 26px;
     background: url(../images/timefg.png) no-repeat;
-    background-size: 100%
+    background-size: 100% 100%;
+}
+
+.index-progress-line1 {
+    float: right;
+    margin: 20px 220px 0;
+    width: 40px;
+    height: 80px;
+    background: url(../images/timefg1.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.index-progress-line2 {
+    float: left;
+    margin: 20px 13px 0;
+    width: 80px;
+    height: 26px;
+    background: url(../images/timefg2.png) no-repeat;
+    background-size: 100% 100%;
 }
 
 .section-bg4 {
@@ -522,7 +540,7 @@ section .tit span {
 }
 
 .competition li {
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 .competition li>span {
