@@ -310,6 +310,11 @@ a:hover {
     background-size: 100%
 }
 
+.section-bg7 {
+    background: url(../images/awards.png) no-repeat center bottom;
+    background-size: 100%
+}
+
 section {
     padding-bottom: 40px;
 }
